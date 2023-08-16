@@ -9,5 +9,4 @@
     $result = $conexion->EliminarEstudiante($id);
 
     header("Location: ".ROOT."modulos/estudiantes/estudiantes.php?mensaje=".$result);
-
 ?>
