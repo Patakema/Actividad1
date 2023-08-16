@@ -12,7 +12,7 @@
         $mat_id = $r->id;
         $mat_nombre = $r->nombre;
     }
-    
+   
 ?>
 <!DOCTYPE html>
 <html lang="en">
