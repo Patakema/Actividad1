@@ -9,5 +9,4 @@
     $result = $conexion->EliminarMateria($id);
 
     header("Location: ".ROOT."modulos/materias/materias.php?mensaje=".$result);
-
 ?>
