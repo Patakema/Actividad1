@@ -14,5 +14,4 @@
     $result = $conexion->updateEstudiante($id,$nombres,$apellidos,$email,$telefono,$identificacion);
 
     header("Location: ".ROOT."modulos/estudiantes/estudiantes.php?mensaje=".$result);
-
 ?>
