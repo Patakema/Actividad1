@@ -19,7 +19,7 @@
         $estud_email  = $r->email;
         $estud_telefono = $r->telefono;
     }
-    
+   
 ?>
 <!DOCTYPE html>
 <html lang="en">
