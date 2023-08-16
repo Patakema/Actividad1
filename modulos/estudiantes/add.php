@@ -13,5 +13,4 @@
     $result = $conexion->CrearEstudiante($identificacion,$nombres,$apellidos,$email,$telefono);
 
     header("Location: ".ROOT."modulos/estudiantes/estudiantes.php?mensaje=".$result);
-
 ?>
