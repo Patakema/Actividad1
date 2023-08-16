@@ -10,5 +10,4 @@
     $result = $conexion->updateMateria($nombre,$id);
 
     header("Location: ".ROOT."modulos/materias/materias.php?mensaje=".$result);
-
 ?>
