@@ -10,7 +10,6 @@
     $conexion = new Database;  
     $result = $conexion->ConsultarNotasEstudiante($usu_identi,$usu_email);
     
-
 ?>
 
 <!DOCTYPE html>
