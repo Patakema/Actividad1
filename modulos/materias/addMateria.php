@@ -1,12 +1,12 @@
-<?php 
-    include_once("../../config/Config.php");
-    session_start();
-    $role = $_SESSION['sess_userrole'];
-
-    
+<?php
+include_once("../../config/Config.php");
+session_start();
+$role = $_SESSION['sess_userrole'];
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +15,7 @@
     <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="../../css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 
     <div class="container">
@@ -32,17 +33,22 @@
                                 <label for="nombre">Nombre</label>
                                 <input type="text" class="form-control" id="nombre" name="nombre" required>
                             </div>
-                            
-                            <input type="button" class="btn btn-primary" onclick="ValidarMaterias()" value='Crear'>
-                        </form>     
+                            <div class="form-group">
+                                <label for="horas">Horas</label>
+                                <input type="number" class="form-control" id="horas" name="horas" required>
+                            </div>
+
+                            <input type="submit" class="btn btn-primary" value='Crear'>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    <div>
+    </div>
 
-    <script src="../../js/javascript.js" ></script>
-    <script src="../../js/validaciones.js" ></script>
-    <script src="../../bootstrap/js/bootstrap.bundle.min.js" ></script>
+    <script src="../../js/javascript.js"></script>
+    <script src="../../js/validaciones.js"></script>
+    <script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
