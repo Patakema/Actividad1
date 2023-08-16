@@ -9,5 +9,4 @@
     $result = $conexion->CrearMateria($nombre);
 
     header("Location: ".ROOT."modulos/materias/materias.php?mensaje=".$result);
-
 ?>
