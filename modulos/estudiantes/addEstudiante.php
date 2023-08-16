@@ -12,7 +12,6 @@
     <link href="../../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-8 col-xl-8">
